@@ -1,2 +1,2 @@
 # guess-cartoon
-Capstone project for coursera
+Capstone project for coursera "Guess-cartoon"
