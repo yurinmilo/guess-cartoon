@@ -1,0 +1,150 @@
+.container-main {
+  height: 100%;
+  width: 100%;
+  background-image: url("bg-hu.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#demo {
+  margin-left: 40px;
+  color: white;
+  font-size: 3em;
+  border: 2px #e5f4fb;
+  background-color: transparent;
+}
+
+.btn-success {
+  background-color: transparent;
+}
+
+.menu2 {
+  margin-left: 128px;
+}
+
+#mute {
+  float: left;
+  width: 1220px;
+  height: 550px;
+}
+
+#bubo {
+  position: absolute;
+  width: 210px; 
+  height: 210px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-left: 1050px;
+  margin-top: 345px;
+  
+}
+
+#frakk {
+  position: absolute;
+  width: 150px; 
+  height: 100px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 403px;
+  margin-left: 406px;
+}
+
+#hoho {
+  position: absolute;
+  width: 70px; 
+  height: 80px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 112px;
+  margin-left: 364px;
+}
+
+#maci {
+  position: absolute;
+  width: 130px; 
+  height: 145px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 224px;
+  margin-left: 390px;
+}
+
+#meszga {
+  position: absolute;
+  width: 100px; 
+  height: 90px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 299px;
+  margin-left: 709px;
+}
+
+#pompom {
+  position: absolute;
+  width: 100px; 
+  height: 100px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 250px;
+  margin-left: 197px;
+}
+
+#pumukli {
+  position: absolute;
+  width: 50px; 
+  height: 100px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 240px;
+  margin-left: 930px;
+}
+
+#susu {
+  position: absolute;
+  width: 100px; 
+  height: 100px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 10px;
+  margin-left: 679px;
+}
+
+#vili {
+  position: absolute;
+  width: 60px; 
+  height: 60px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 150px;
+  margin-left: 578px;
+}
+
+#vuk {
+  position: absolute;
+  width: 110px; 
+  height: 80px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 475px;
+  margin-left: 730px;
+}
+
+/*
+.btn {
+  margin: auto;
+  float: left;
+  width: 105%;
+  border-width: 2px solid gray;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color:  #581845;
+  color:  #DAF7A6;
+  width: 110%;
+  padding-right: 0px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+*/

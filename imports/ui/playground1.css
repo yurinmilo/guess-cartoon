@@ -1,0 +1,41 @@
+.container1 {
+  background-image: url("bg-main.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-position: 0% 85%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.box {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.btn-eng {
+	background-color: transparent;
+	border: none;
+}
+
+.btn-hu {
+	background-color: transparent;
+	border: none;
+}
+
+.rules {
+	position: absolute;
+	background-color: transparent;
+	font-size: 1.5em;
+	font-family: Helvetica, sans-serif;
+	color: #edf2ff;
+	margin-top: 90px;
+	margin-left: 20px;
+}
+
+.p1 {
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+}
+

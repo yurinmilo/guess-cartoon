@@ -1,0 +1,123 @@
+<template name="playground">
+        <header>
+          
+        </header>
+
+  
+ <div class="container-main col-md-12">
+    
+      <div class="col-md-5">
+      {{#if startdac }}
+          <a href="/"><i class="btn btn-lg btn-success js-masterButton fa fa-home fa-4x"></i></a>
+      {{else}}
+          <a href="/"><i class="btn btn-lg btn-success js-masterButton fa fa-home fa-4x"></i></a>
+      {{/if}}
+
+          {{#if bubo }}
+          <i class="btn btn-lg btn-danger js-controlBubo fa fa-stop-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlBubo fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}} 
+      
+          {{#if frakk}}
+          <i class="btn btn-lg btn-danger js-controlFrakk fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlFrakk fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}}
+
+          {{#if hoho}}
+          <i class="btn btn-lg btn-danger js-controlHoho fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlHoho fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}}
+
+          {{#if maci}}
+          <i class="btn btn-lg btn-danger js-controlMaci fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlMaci fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}}
+
+          {{#if mezsga}}
+          <i class="btn btn-lg btn-danger js-controlMezsga fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlMezsga fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}}
+
+      </div>
+
+      <div class="col-md-5 menu2">
+        {{#if pompom}}
+          <i class="btn btn-lg btn-danger js-controlPompom fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlPompom fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}}
+
+          {{#if pumukli}}
+          <i class="btn btn-lg btn-danger js-controlPumukli fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlPumukli fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}}
+
+          {{#if susu}}
+          <i class="btn btn-lg btn-danger js-controlSusu fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlSusu fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}}
+
+          {{#if vili}}
+          <i class="btn btn-lg btn-danger js-controlVili fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlVili fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}}
+
+          {{#if vuk}}
+          <i class="btn btn-lg btn-danger js-controlVuk fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
+          {{else}}
+          <i class="btn btn-lg btn-success js-controlVuk fa fa-play-circle fa-4x" onClick="myTimer = setInterval(myCounter, 1000)"></i>
+          {{/if}}
+
+      </div>
+
+      <div id="mute">
+
+      <img src="dr-bubo.png" id="bubo" class="js-stopBubo" alt="Bubo" onClick="clearInterval(myTimer)">
+
+      <img src="frakk.png" id="frakk" class="js-stopFrakk" alt="Frakk" onClick="clearInterval(myTimer)">
+
+      <img src="hoho.png" id="hoho" class="js-stopHoho" alt="Hoho" onClick="clearInterval(myTimer)">
+
+      <img src="maci.png" id="maci" class="js-stopMaci" alt="Maci" onClick="clearInterval(myTimer)">
+
+      <img src="meszga.png" id="meszga" class="js-stopMezsga" alt="Meszga" onClick="clearInterval(myTimer)">
+
+      <img src="pompom.png" id="pompom" class="js-stopPompom" alt="Pompom" onClick="clearInterval(myTimer)">
+
+      <img src="pumukli.png" id="pumukli" class="js-stopPumukli" alt="Pumukli" onClick="clearInterval(myTimer)">
+
+      <img src="susu.png" id="susu" class="js-stopSusu" alt="Susu" onClick="clearInterval(myTimer)">
+
+      <img src="vili.png" id="vili" class="js-stopVili" alt="Vili" onClick="clearInterval(myTimer)">
+
+      <img src="vuk.png" id="vuk" class="js-stopVuk" alt="Vuk" onClick="clearInterval(myTimer)">
+    
+      <div>
+      <p id="demo"></p>
+      </div>
+
+      </div>
+    
+
+    <h2> {{startdac}} {{bubo}} {{frakk}} {{hoho}} {{maci}} {{mezsga}} {{pompom}} {{pumukli}} {{susu}} {{vili}} {{vuk}} {{tom}} {{bugs}} {{chipndale}} {{donald}} {{mickey}} {{pink}} {{popeye}} {{runner}} {{simpsons}} {{woody}} {{snoopy}}</h2>
+
+
+  </div>
+
+<script>
+  var c = 0;
+  function myCounter() {
+  document.getElementById("demo").innerHTML = ++c;
+  }
+</script>
+
+</template>
+

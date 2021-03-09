@@ -1,0 +1,131 @@
+.container2 {
+  height: 100%;
+  width: 100%;
+  background-image: url("bg-en.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#demo1 {
+  margin-left: 40px;
+  color: white;
+  font-size: 3em;
+  border: 2px #e5f4fb;
+  background-color: transparent;
+}
+
+.btn-success {
+  background-color: transparent;
+}
+
+.menu2 {
+  margin-left: 128px;
+}
+
+#mute1 {
+  float: left;
+  width: 1220px;
+  height: 550px;
+}
+
+#tom {
+  position: absolute;
+  width: 175px; 
+  height: 100px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-left: 1055px;
+  margin-top: 465px; 
+}
+
+#bugs {
+  position: absolute;
+  width: 120px; 
+  height: 120px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 295px;
+  margin-left: 715px;
+}
+
+#chipndale {
+  position: absolute;
+  width: 80px; 
+  height: 60px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 130px;
+  margin-left: 380px;
+}
+
+#donald {
+  position: absolute;
+  width: 100px; 
+  height: 70px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 460px;
+  margin-left: 175px;
+}
+
+#mickey {
+  position: absolute;
+  width: 140px; 
+  height: 90px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 176px;
+  margin-left: 720px;
+}
+
+#pink {
+  position: absolute;
+  width: 100px; 
+  height: 100px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 400px;
+  margin-left: 465px;
+}
+
+#popeye {
+  position: absolute;
+  width: 100px; 
+  height: 100px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 240px;
+  margin-left: 365px;
+}
+
+#runner {
+  position: absolute;
+  width: 90px; 
+  height: 140px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 42px;
+  margin-left: 108px;
+}
+
+#simpsons {
+  position: absolute;
+  width: 255px; 
+  height: 230px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 240px;
+  margin-left: -15px;
+}
+
+#woody {
+  position: absolute;
+  width: 100px; 
+  height: 100px; 
+  border: 0; 
+  cursor: pointer; 
+  margin-top: 90px;
+  margin-left: 960px;
+}
