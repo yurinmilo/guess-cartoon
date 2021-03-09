@@ -10,7 +10,7 @@ To load the project run in the command line(Windows) or terminal(Mac Os):
 
 ```
 meteor npm install --save @babel/runtime
----
+
 meteor
 ```
 
