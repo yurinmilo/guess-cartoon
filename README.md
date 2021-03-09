@@ -1,7 +1,7 @@
 # guess-cartoon
-
-Responsive Website Development and Design Capstone project on Coursera.org "Guess-cartoon"
-
+---
+Responsive Website Development and Design Capstone project on Coursera.org
+---
 Built with Meteor.
 
 Install meteor from https://www.meteor.com/install
