@@ -1,4 +1,4 @@
-# guess-cartoon
+# Guess-cartoon
 ---
 Responsive Website Development and Design Capstone project on Coursera.org
 ---
