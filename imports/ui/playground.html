@@ -5,8 +5,8 @@
 
   
  <div class="container-main col-md-12">
-    
-      <div class="col-md-5">
+    <div class="row">
+      <div class="col-md-5 col-xs-1 menu1">
       {{#if startdac }}
           <a href="/"><i class="btn btn-lg btn-success js-masterButton fa fa-home fa-4x"></i></a>
       {{else}}
@@ -45,7 +45,7 @@
 
       </div>
 
-      <div class="col-md-5 menu2">
+      <div class="col-md-5 col-xs-1 menu2">
         {{#if pompom}}
           <i class="btn btn-lg btn-danger js-controlPompom fa fa-play-circle fa-4x" onClick="clearInterval(myTimer)"></i>
           {{else}}
@@ -77,12 +77,44 @@
           {{/if}}
 
       </div>
+    </div>
 
-      <div id="mute">
+      <div class="bubo js-stopBubo" alt="bubo" onClick="clearInterval(myTimer)">
+      </div>
 
-      <img src="dr-bubo.png" id="bubo" class="js-stopBubo" alt="Bubo" onClick="clearInterval(myTimer)">
+      <div class="frakk js-stopFrakk" alt="frakk" onClick="clearInterval(myTimer)">
+      </div>
 
-      <img src="frakk.png" id="frakk" class="js-stopFrakk" alt="Frakk" onClick="clearInterval(myTimer)">
+      <div class="hoho js-stopHoho" alt="hoho" onClick="clearInterval(myTimer)">
+      </div>
+
+      <div class="maci js-stopMaci" alt="maci" onClick="clearInterval(myTimer)">
+      </div>
+
+      <div class="mezsga js-stopMezsga" alt="mezsga" onClick="clearInterval(myTimer)">
+      </div>
+
+      <div class="pompom js-stopPompom" alt="pompom" onClick="clearInterval(myTimer)">
+      </div>
+
+      <div class="pumukli js-stopPumukli" alt="pumukli" onClick="clearInterval(myTimer)">
+      </div>
+
+      <div class="susu js-stopSusu" alt="susu" onClick="clearInterval(myTimer)">
+      </div>
+
+      <div class="vili js-stopVili" alt="vili" onClick="clearInterval(myTimer)">
+      </div>
+
+      <div class="vuk js-stopVuk" alt="vuk" onClick="clearInterval(myTimer)">
+      </div>
+
+      <div class="demo">
+        <p id="demo"></p>
+      </div>
+
+
+<!--      <img src="frakk.png" id="frakk" class="js-stopFrakk" alt="Frakk" onClick="clearInterval(myTimer)">
 
       <img src="hoho.png" id="hoho" class="js-stopHoho" alt="Hoho" onClick="clearInterval(myTimer)">
 
@@ -99,12 +131,9 @@
       <img src="vili.png" id="vili" class="js-stopVili" alt="Vili" onClick="clearInterval(myTimer)">
 
       <img src="vuk.png" id="vuk" class="js-stopVuk" alt="Vuk" onClick="clearInterval(myTimer)">
-    
-      <div>
-      <p id="demo"></p>
-      </div>
 
-      </div>
+      <p id="demo"></p> -->
+
     
 
     <h2> {{startdac}} {{bubo}} {{frakk}} {{hoho}} {{maci}} {{mezsga}} {{pompom}} {{pumukli}} {{susu}} {{vili}} {{vuk}} {{tom}} {{bugs}} {{chipndale}} {{donald}} {{mickey}} {{pink}} {{popeye}} {{runner}} {{simpsons}} {{woody}} {{snoopy}}</h2>
