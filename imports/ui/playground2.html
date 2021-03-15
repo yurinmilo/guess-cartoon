@@ -1,12 +1,11 @@
 <template name="playground2">
   <header>
-<!--     <script src="playground.js"></script> -->
+  
   </header>
 
   <div class="container2 col-md-12">
-    
-     <div class="col-md-5">
-
+    <div class="row">
+     <div class="col-md-5 col-xs-1 menu1">
        {{#if startdac }}
           <a href="/"><i class="btn btn-lg btn-success js-masterButton fa fa-home fa-4x"></i></a>
       {{else}}
@@ -45,7 +44,7 @@
 
         </div>
 
-        <div class="col-md-5 menu2">
+        <div class="col-md-5 col-xs-1 menu2">
           {{#if pink }}
           <i class="btn btn-lg btn-danger js-controlPink fa fa-stop-circle fa-4x" onClick="clearInterval(myTimer1)"></i>
           {{else}}
@@ -77,33 +76,31 @@
           {{/if}}
 
         </div>
-
-      <div id="mute1">
-
-        <img src="tom.png" id="tom" class="js-stopTom" alt="Tom" onClick="clearInterval(myTimer1)">
-
-        <img src="bugs.png" id="bugs" class="js-stopBugs" alt="Bugs" onClick="clearInterval(myTimer1)">
-
-        <img src="chipndale.png" id="chipndale" class="js-stopChipndale" alt="Chipndale" onClick="clearInterval(myTimer1)">
-
-        <img src="donald.png" id="donald" class="js-stopDonald" alt="Donald" onClick="clearInterval(myTimer1)">
-
-        <img src="mickey.png" id="mickey" class="js-stopMickey" alt="Mickey" onClick="clearInterval(myTimer1)">
-
-        <img src="pink.png" id="pink" class="js-stopPink" alt="Pink" onClick="clearInterval(myTimer1)">
-      
-        <img src="popeye.png" id="popeye" class="js-stopPopeye" alt="Popeye" onClick="clearInterval(myTimer1)">
-
-        <img src="runner.png" id="runner" class="js-stopRunner" alt="Runner" onClick="clearInterval(myTimer1)">
-
-        <img src="simpsons.png" id="simpsons" class="js-stopSimpsons" alt="Simpsons" onClick="clearInterval(myTimer1)">
-
-        <img src="woody.png" id="woody" class="js-stopWoody" alt="Woody" onClick="clearInterval(myTimer1)">
-    
-      <div>
-      <p id="demo1"></p>
       </div>
 
+
+        <div class="tom js-stopTom" alt="Tom" onClick="clearInterval(myTimer1)"></div>
+
+        <div class="bugs js-stopBugs" alt="bugs" onClick="clearInterval(myTimer1)"></div>
+
+        <div class="chipndale js-stopChipndale" alt="chipndale" onClick="clearInterval(myTimer1)"></div>
+
+        <div class="donald js-stopDonald" alt="Donald" onClick="clearInterval(myTimer1)"></div>
+
+        <div class="mickey js-stopMickey" alt="Mickey" onClick="clearInterval(myTimer1)"></div>
+
+        <div class="pink js-stopPink" alt="Pink" onClick="clearInterval(myTimer1)"></div>
+      
+        <div class="popeye js-stopPopeye" alt="Popeye" onClick="clearInterval(myTimer1)"></div>
+
+        <div class="runner js-stopRunner" alt="Runner" onClick="clearInterval(myTimer1)"></div>
+
+        <div class="simpsons js-stopSimpsons" alt="Simpsons" onClick="clearInterval(myTimer1)"></div>
+
+        <div class="woody js-stopWoody" alt="Woody" onClick="clearInterval(myTimer1)"></div>
+    
+      <div class="demo1">
+      <p id="demo1"></p>
       </div>
 
       <h2> {{startdac}} {{bubo}} {{frakk}} {{hoho}} {{maci}} {{mezsga}} {{pompom}} {{pumukli}} {{susu}} {{vili}} {{vuk}} {{tom}} {{bugs}} {{chipndale}} {{donald}} {{mickey}} {{pink}} {{popeye}} {{runner}} {{simpsons}} {{woody}} {{snoopy}}</h2>
